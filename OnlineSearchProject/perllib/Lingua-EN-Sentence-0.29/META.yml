@@ -1,0 +1,26 @@
+---
+abstract: 'Split text into sentences'
+author:
+  - 'Shlomo Yona, Kim Ryan <kimryan at cpan org>'
+build_requires:
+  Test::More: '0.94'
+configure_requires:
+  Module::Build: '0.38'
+dynamic_config: 1
+generated_by: 'Module::Build version 0.421, CPAN::Meta::Converter version 2.142060'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: '1.4'
+name: Lingua-EN-Sentence
+provides:
+  Lingua::EN::Sentence:
+    file: lib/Lingua/EN/Sentence.pm
+    version: '0.29'
+requires:
+  locale: '1'
+  strict: '1.04'
+  warnings: '1.12'
+resources:
+  license: http://dev.perl.org/licenses/
+version: '0.29'

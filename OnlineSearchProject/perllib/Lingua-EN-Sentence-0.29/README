@@ -1,0 +1,29 @@
+NAME
+
+  Lingua::EN::Sentence 
+
+DESCRIPTION
+  
+  Module for splitting text into sentences.
+
+INSTALLATION
+
+To install this module, type the following:
+
+   perl Makefile.PL
+   make
+   make test
+   make install
+   
+   or
+   
+   perl Build.PL
+   build
+   build test
+   build install
+   
+
+MAINTAINER
+
+This project was originated by Shlomo Yona. Currently  maintained
+by Kim Ryan
