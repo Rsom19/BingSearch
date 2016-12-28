@@ -1,0 +1,6 @@
+
+Main class is OnlineSearcher.java
+It accepts three parameters which are 
+  1. query - search query string
+  2. searchResultsNeeded - number of search results needed 
+  3. summarizer - true or false depending on if you need the results to be summarized or not. 
