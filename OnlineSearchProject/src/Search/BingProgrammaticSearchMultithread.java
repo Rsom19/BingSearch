@@ -194,7 +194,7 @@ public class BingProgrammaticSearchMultithread {
     public String getTopBingResult(String searchQuery){
 
     	ArrayList<String> searchResultsStringList = getBingResults(searchQuery,1);
-              int endIndex = searchResultsStringList.get(0).indexOf("bing...");
+           int endIndex = searchResultsStringList.get(0).indexOf("bing...");
           return searchResultsStringList.get(0).substring(0, endIndex);
     }
     
